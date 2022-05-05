@@ -13,3 +13,9 @@ body{
 li{
     list-style-type: none;
 }
+
+@mixin colorized {
+    text-transform: uppercase;
+    background-color: $text-color;
+    color: white;
+}

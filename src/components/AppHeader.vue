@@ -85,11 +85,11 @@ export default {
         height: 100%;
         margin-left: 20px;
         color: $text-color;
-        border-bottom: 5px;
+        border-bottom: 5px solid transparent;
         text-transform: uppercase;
       }
 
-      li.active{
+      li:hover{
         border-bottom: 5px solid $text-color;
       }
     }
